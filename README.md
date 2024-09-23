@@ -48,3 +48,14 @@ This repository contains reports, code, and other materials for the **Control Sy
 │   ├── Experiment2_Report.pdf
 │   ├── Experiment2_Code.ino
 └── README.md
+```
+
+## Pre-requisites
+- **Software**:
+  - Arduino IDE for programming and uploading code to the Arduino Mega.
+  - MATLAB for state-space modeling and control design.
+- **Knowledge**:
+  - PID Control: Understanding proportional, integral, and derivative components in control systems.
+  - LQR Technique: Knowledge of linear-quadratic regulator (LQR) and how it applies to control problems.
+  - State-Space Modeling: Experience in developing state-space models for dynamic systems.  
+  - Arduino Programming: Familiarity with Arduino IDE, coding, and interfacing with external hardware.
