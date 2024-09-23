@@ -1,4 +1,4 @@
-# ControlsLab
+# Controls Lab (EE324)
 # EE324 Control Systems Lab - IIT Bombay
 
 This repository contains reports, code, and other materials for the **Control Systems Lab (EE324)** course at **IIT Bombay**. The experiments focus on designing and implementing control systems for real-world applications using techniques such as PID control and LQR, implemented on an Arduino Mega. Below is a summary of the experiments conducted during the course.
