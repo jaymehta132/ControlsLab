@@ -19,7 +19,7 @@ This repository contains reports, code, and other materials for the **Control Sy
 - **Key Topics**: 
   - PID control logic, Arduino programming
   
-- **Files**:
+- **Important Files**:
   - `Experiment1_Report.pdf`: Detailed report and findings
   - `Experiment1_Code.ino`: Arduino code for the motor control
   
@@ -35,9 +35,12 @@ This repository contains reports, code, and other materials for the **Control Sy
 - **Key Topics**: 
   - LQR technique, State space modeling, Matlab and Arduino coding
 
-- **Files**:
+- **Important Files**:
   - `Experiment2_Report.pdf`: Detailed report and findings
   - `Experiment2_Code.ino`: Arduino code for the LQR control system
+  - `LQR.m`: MATLAB code where the LQR model is implemented to determine Optimal Gain Values
+  - `simulink_model_continuous`: Simulink Model to emulate the inverted pendulum setup in a continuous time domain
+  - `simulink_model_discrete`: Simulink Model to simulate the inverted pendulum similar to the control algorithm given that Arduino control happens in discrete time domain
 
 ## Repository Structure
 ```plaintext
@@ -46,7 +49,16 @@ This repository contains reports, code, and other materials for the **Control Sy
 │   ├── Experiment1_Code.ino
 ├── Experiment2
 │   ├── Experiment2_Report.pdf
-│   ├── Experiment2_Code.ino
+|   ├── Codes
+│   |   ├── Experiment2_Code.ino
+│   |   ├── LQR.m
+│   |   ├── simulink_model_continuous.slx
+│   |   ├── simulink_model_discrete.slx
+│   ├── Problem_Statement.pdf
+│   ├── Supporting_Documents
+│   |   ├── amt22_datasheet.pdf
+│   |   ├── L293D datasheet.pdf
+│   |   ├── PendulumSetup_manual.pdf
 └── README.md
 ```
 
