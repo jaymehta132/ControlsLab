@@ -46,7 +46,16 @@ This repository contains reports, code, and other materials for the **Control Sy
 │   ├── Experiment1_Code.ino
 ├── Experiment2
 │   ├── Experiment2_Report.pdf
-│   ├── Experiment2_Code.ino
+|   ├── Codes
+│   |   ├── Experiment2_Code.ino
+│   |   ├── LQR.m
+│   |   ├── simulink_model_continuous.slx
+│   |   ├── simulink_model_discrete.slx
+│   ├── Problem_Statement.pdf
+│   ├── Supporting_Documents
+│   |   ├── amt22_datasheet.pdf
+│   |   ├── L293D datasheet.pdf
+│   |   ├── PendulumSetup_manual.pdf
 └── README.md
 ```
 
